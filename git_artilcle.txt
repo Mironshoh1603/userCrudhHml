@@ -5,3 +5,4 @@ git add  fayl_nomi
 git commit -m  comment_text
 git log
 git config --global user.name "Mironshoh"
+vimdan chiqish ---> Shift+I + "wq"
