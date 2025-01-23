@@ -6,3 +6,11 @@ git commit -m  comment_text
 git log
 git config --global user.name "Mironshoh"
 vimdan chiqish ---> Shift+I + "wq"
+
+git remote add origin repo_linki_beriladi
+git push origin master 
+
+git branch branch_nomi_qoyiladi
+git branch -d
+git switch 
+git checkout 
