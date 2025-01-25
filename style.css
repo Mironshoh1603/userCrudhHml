@@ -34,18 +34,17 @@ input[type="email"] {
   -ms-border-radius: 7px;
   -o-border-radius: 7px;
 }
+html 
+{
+  cursor: url("./icons/icons8-cursor.svg"), default;
 
-h1 {
-  font-size: 45px;
 }
 
 body > form,
 body {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  height: 30vh;
+  background-color: #212121;
+  padding: 10px 30px;
+  position: relative;
 }
 
 form {
@@ -76,6 +75,9 @@ form {
 th,
 td {
   padding: 30px;
+  border: 1.5px solid gold;
+  width: fit-content;
+  border-radius: 12px;
 }
 
 .userdata {
