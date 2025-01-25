@@ -48,12 +48,18 @@ body {
   height: 30vh;
 }
 
-form > div {
+form {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 10px;
+  gap: 1rem;
   align-items: center;
+}
+
+.inputsWrapper > div {
+  width: 525px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .btn {
