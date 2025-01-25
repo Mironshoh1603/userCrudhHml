@@ -2,15 +2,43 @@
   padding: 0px;
   margin: 0px;
   text-align: center;
-  background-color: rgb(115, 219, 219);
-  color: violet;
+  /* background-color: rgb(115, 219, 219); */
+  /* color: violet; */
   margin-top: 10px;
   font-size: 20px;
+  font-family: sans-serif;
+}
+
+body {
+  color: #333;
+}
+
+button,
+input {
+  outline: none;
+  border: none;
+}
+
+input[type="button"] {
+  cursor: pointer;
+}
+
+input[type="text"],
+input[type="email"] {
+  border: 2px solid #333;
+  border-radius: 7px;
+  padding: 5px;
+
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
 }
 
 h1 {
   font-size: 45px;
 }
+
 body > form,
 body {
   display: flex;
@@ -30,11 +58,20 @@ form > div {
 
 .btn {
   padding: 10px 20px;
-  background: yellow;
   border-radius: 10px;
+  background-color: #272626;
+  color: white;
+}
+
+.btn:active {
+  background-color: #474646;
 }
 
 th,
 td {
   padding: 30px;
+}
+
+.userdata {
+  margin-top: 75px;
 }
